@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="41"
+   height="85"
+   viewBox="0 0 41 85"
+   fill="none"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="Group_87.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs21" />
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="8.4588235"
+     inkscape:cx="-0.76842837"
+     inkscape:cy="33.04242"
+     inkscape:window-width="1920"
+     inkscape:window-height="1125"
+     inkscape:window-x="3840"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg17" />
+  <path
+     d="M2.00153 8.90775H4.02667C4.04845 8.9513 4.04845 8.99485 4.04845 9.0384C4.04845 9.19083 3.93957 9.29971 3.87424 9.38681C3.78714 9.51747 3.78714 9.62634 3.78714 9.73522V19.469C3.78714 20.2747 3.78714 21.0586 4.15732 21.8425C4.74527 23.0837 5.94293 23.7588 7.2277 23.7588C8.49069 23.7588 9.71013 23.1055 10.2981 21.8643C10.69 21.0368 10.7118 20.2311 10.7118 19.4036V8.90775H12.4321V19.3601C12.4321 20.536 12.3885 21.6465 11.7788 22.7789C10.8642 24.4774 9.05686 25.2831 7.20592 25.2831C5.31144 25.2831 3.50405 24.4338 2.61125 22.7789C2.0233 21.6683 2.00153 20.5795 2.00153 19.4472V8.90775ZM25.2798 10.824L24.1474 12.3483C24.0821 12.3265 24.0168 12.3048 24.0168 12.1523C24.0168 12.0652 24.0168 11.9999 23.9515 11.891C23.32 10.9764 22.1876 10.3014 20.6851 10.3014C18.8342 10.3014 17.7671 11.412 17.7671 12.6532C17.7671 13.3064 18.072 14.2863 19.4221 15.0703C20.9029 15.9413 23.1893 16.3768 24.5612 17.7051C25.5629 18.6633 25.8024 19.7738 25.8024 20.6231C25.8024 22.6482 24.3652 25.2613 20.4456 25.2613C18.464 25.2613 16.6566 24.5645 15.3936 23.1926L16.4606 21.3417C16.5913 21.407 16.5695 21.5377 16.5695 21.5812C16.5695 21.6901 16.5695 21.7554 16.6566 21.8643C17.3752 22.7789 18.7253 23.6499 20.4891 23.6499C22.7973 23.6499 24.0168 22.0821 24.0168 20.7102C24.0168 19.9916 23.7119 19.1423 22.6667 18.4891C21.4472 17.7269 19.1172 17.1825 17.6365 16.072C16.2864 15.0703 15.9162 13.8726 15.9162 12.9363C15.9162 10.7369 17.8978 8.82064 20.8157 8.82064C22.5796 8.82064 24.191 9.53924 25.2798 10.824ZM27.784 25.0218L33.4674 8.60289H33.6634L39.8913 25H38.0186L36.233 20.2964H31.1157L29.5696 25.0218H27.784ZM35.8192 18.881L33.5545 12.762L31.4858 18.881H35.8192Z"
+     fill="white"
+     id="path11" />
+  <path
+     d="m 37.269178,52.177608 c 0,9.889 -16.2588,32.6776 -16.2588,32.6776 0,0 -16.2589001,-22.7886 -16.2589001,-32.6776 0,-9.889 7.2793001,-17.9055 16.2589001,-17.9055 8.9795,0 16.2588,8.0165 16.2588,17.9055 z"
+     fill="#F0B411"
+     id="path4"
+     style="fill:#018cfe;fill-opacity:1" />
+  <path
+     fill="#e7e7e7"
+     stroke="#cccccc"
+     style="color:#000000;fill:#0132ed;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     stroke-width="0.660931"
+     stroke-linejoin="round"
+     stroke-dashoffset=""
+     fill-rule="nonzero"
+     id="knest1"
+     d="m 10.153916,53.897268 4.717023,-13.605697 13.710028,0.552348 3.756265,13.947118 -11.388558,8.067422 z"
+     fill-opacity="1" />
+  <path
+     fill="#e9e9e9"
+     stroke="#cccccc"
+     style="color:#000000;fill:#018cfe;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     stroke-width="0.660931"
+     stroke-linejoin="round"
+     stroke-dashoffset=""
+     fill-rule="nonzero"
+     d="M 32.635759,47.300436 27.757412,60.842542 14.05503,60.108529 10.464812,46.112725 21.948347,38.196878 Z"
+     fill-opacity="1"
+     id="knest2" />
+  <path
+     fill="#ececec"
+     stroke="#cccccc"
+     style="color:#000000;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.661;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     stroke-width="0.660931"
+     stroke-linejoin="round"
+     stroke-dashoffset=""
+     fill-rule="nonzero"
+     d="m 29.64403,44.852898 -0.554143,12.20953 -11.170958,3.200799 -6.349923,-10.231364 7.24652,-9.524118 z"
+     fill-opacity="1"
+     id="knest3" />
+  <path
+     fill="#e9e9e9"
+     stroke="#cccccc"
+     style="color:#000000;fill:#0134ed;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     stroke-width="0.660931"
+     stroke-linejoin="round"
+     stroke-dashoffset=""
+     fill-rule="nonzero"
+     id="eagle"
+     d="m 20.210971,51.492131 7.620479,-5.249287 -7.463492,9.054753 -4.25361,-6.477271 z"
+     fill-opacity="1" />
+</svg>
