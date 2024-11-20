@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="85"
+   viewBox="0 0 40 85"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="Group_87_1.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="9.5647059"
+     inkscape:cx="20.021525"
+     inkscape:cy="42.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <path
+     d="M7.8056 8.77709C9.93962 8.77709 11.8559 10.0183 12.7269 11.9563L11.0066 12.8056C10.8978 12.7185 10.8978 12.5661 10.8978 12.5443C10.8978 12.479 10.9195 12.4136 10.9195 12.3483C10.9195 12.2177 10.8542 12.1741 10.8106 12.087C10.1574 10.9547 9.00326 10.2143 7.74027 10.2143C5.45382 10.2143 3.42868 12.6096 3.42868 16.8777C3.42868 21.2328 5.51915 23.7152 7.8927 23.7152C9.15569 23.7152 10.4405 22.9531 11.1808 21.7336L12.5092 22.6047C11.5075 24.2596 9.70009 25.2613 7.78382 25.2613C5.12719 25.2613 1.66485 23.2797 1.66485 17.0519C1.66485 10.6063 5.30139 8.77709 7.8056 8.77709ZM14.4036 25V9.27793H16.3635C16.3635 9.32148 16.3852 9.36504 16.3852 9.40859C16.3852 9.60457 16.2328 9.62634 16.2328 9.88765V23.4975H19.2379V9.27793H21.1541C21.1541 9.32148 21.1759 9.36504 21.1759 9.38681C21.1759 9.58279 21.0017 9.58279 21.0017 9.8441V23.4975H23.8979V9.27793H25.8141C25.8359 9.32148 25.8359 9.36504 25.8359 9.38681C25.8359 9.58279 25.6617 9.58279 25.6617 9.8441V25H14.4036ZM27.1424 25.0218L32.8259 8.60289H33.0219L39.2497 25H37.377L35.5914 20.2964H30.4741L28.928 25.0218H27.1424ZM35.1777 18.881L32.913 12.762L30.8443 18.881H35.1777Z"
+     fill="white"
+     id="path1" />
+  <path
+     d="m 36.5177,52.054332 c 0,9.889 -16.2588,32.6776 -16.2588,32.6776 0,0 -16.2589,-22.7886 -16.2589,-32.6776 0,-9.889 7.2793,-17.9055 16.2589,-17.9055 8.9795,0 16.2588,8.0165 16.2588,17.9055 z"
+     fill="#F0B411"
+     id="path4"
+     style="fill:#018cfe;fill-opacity:1" />
+  <path
+     fill="#e7e7e7"
+     stroke="#cccccc"
+     style="color:#000000;fill:#0132ed;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     stroke-width="0.660931"
+     stroke-linejoin="round"
+     stroke-dashoffset=""
+     fill-rule="nonzero"
+     id="knest1"
+     d="m 9.402438,53.773992 4.717023,-13.605697 13.710028,0.552348 3.756265,13.947118 -11.388558,8.067422 z"
+     fill-opacity="1" />
+  <path
+     fill="#e9e9e9"
+     stroke="#cccccc"
+     style="color:#000000;fill:#018cfe;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     stroke-width="0.660931"
+     stroke-linejoin="round"
+     stroke-dashoffset=""
+     fill-rule="nonzero"
+     d="M 31.884281,47.17716 27.005934,60.719266 13.303552,59.985253 9.713334,45.989449 21.196869,38.073602 Z"
+     fill-opacity="1"
+     id="knest2" />
+  <path
+     fill="#ececec"
+     stroke="#cccccc"
+     style="color:#000000;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.661;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     stroke-width="0.660931"
+     stroke-linejoin="round"
+     stroke-dashoffset=""
+     fill-rule="nonzero"
+     d="m 28.892552,44.729622 -0.554143,12.20953 -11.170958,3.200799 -6.349923,-10.231364 7.24652,-9.524118 z"
+     fill-opacity="1"
+     id="knest3" />
+  <path
+     fill="#e9e9e9"
+     stroke="#cccccc"
+     style="color:#000000;fill:#0134ed;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     stroke-width="0.660931"
+     stroke-linejoin="round"
+     stroke-dashoffset=""
+     fill-rule="nonzero"
+     id="eagle"
+     d="M 19.459493,51.368855 27.079972,46.119568 19.61648,55.174321 15.36287,48.69705 Z"
+     fill-opacity="1" />
+</svg>
