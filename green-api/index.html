@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./bootstrap.min.css">
+        <title> green-api devops</title>
+    </head>
+    <body>
+        <script>
+            function createGreenApiUrl(method) {
+                let id = "1103";
+                let id_instance = document.getElementById('id_instance').value;
+                let api_token_instance = document.getElementById('api_token_instance').value;
+                return "https://" + id + ".api.green-api.com/waInstance" + id_instance + "/" + method + "/" + api_token_instance;
+            }
+
+            function fetch2Out(url, method) {
+                fetch(url, method).then((response) => response.text()).then(html => {
+                    console.log(html);
+                    document.getElementById('data').innerHTML = html;
+                }).catch((err) => {
+                    let log = "Can’t access " + url + " response. Error is: " + err;
+                    console.log(log)
+                    document.getElementById('data').innerHTML = log
+                });
+            }
+
+            function prepareButton() {
+                document.getElementById('get_settings').onclick = function() {
+                    let url = createGreenApiUrl("getSettings")
+                    console.log(url);
+                    fetch2Out(url, {
+                        method: "GET"
+                    });
+                }
+                document.getElementById('get_state_instance').onclick = function() {
+                    let url = createGreenApiUrl("getStateInstance")
+                    console.log(url);
+                    fetch2Out(url, {
+                        method: "GET"
+                    });
+                }
+                document.getElementById('send_message').onclick = function() {
+                    let url = createGreenApiUrl("sendMessage")
+                    console.log(url);
+                    let phone_number = document.getElementById('phone_number').value;
+                    let message = document.getElementById('message').value;
+                    fetch2Out(url, {
+                        method: "POST",
+                        body: JSON.stringify({
+                            chatId: phone_number + "@c.us",
+                            message: message,
+                        }),
+                        headers: {
+                            "Content-type": "application/json",
+                        },
+                    });
+                }
+                document.getElementById('send_file_by_url').onclick = function() {
+                    let url = createGreenApiUrl("sendFileByUrl")
+                    console.log(url);
+                    let phone_number = document.getElementById('phone_number').value;
+                    let message = document.getElementById('message').value;
+                    let urlFile = document.getElementById('file_by_url').value;
+                    fetch2Out(url, {
+                        method: "POST",
+                        body: JSON.stringify({
+                            chatId: phone_number + "@c.us",
+                            caption: message,
+                            urlFile: urlFile,
+                            fileName: "horse.png",
+                        }),
+                        headers: {
+                            "Content-type": "application/json",
+                        },
+                    });
+                }
+            }
+            window.onload = prepareButton;
+        </script>
+        <h1 style="color:white"> green-api </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <input type="text" id="id_instance" name="id_instance" class="form-control" placeholder="idInstance - уникальный номер инстанса" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="api_token_instance" name="api_token_instance" class="form-control" placeholder="apiTokenInstance - ключ доступа инстанса" required>
+                    </div>
+                    <div class="form-group">
+                        <input id="get_settings" value="getSettings" type="button" class="btn btn-success" />
+                    </div>
+                    <div class="form-group">
+                        <input id="get_state_instance" value="getStateInstance" type="button" class="btn btn-success" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="phone_number" name="phone_number" class="form-control" placeholder="Номер телфона" pattern="\d{11}" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea type="text" id="message" name="message" class="form-control" placeholder="Сообщение" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input id="send_message" value="sendMessage" type="button" class="btn btn-success" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="file_by_url" name="file_by_url" class="form-control" placeholder="https://mysite.com/files/myfile.jpg" required>
+                    </div>
+                    <div class="form-group">
+                        <input id="send_file_by_url" value="sendFileByUrl" type="button" class="btn btn-success" />
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="data">Ответ:</label>
+                    <div class="form-group">
+                        <textarea type="text" id="data" name="data" class="form-control" placeholder="ответ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%" readonly></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
